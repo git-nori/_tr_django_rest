@@ -14,11 +14,9 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
-from api import views as api_views
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/books/', api_views.BookListCreateAPIView.as_view()),  # 本モデルの取得(一覧)・登録
-    path('api/books/<pk>/', api_views.BookRetrieveUpdateDestroyAPIView.as_view()),  # 本モデルの取得(詳細)・更新・一部更新・削除
+    path('api/', include('api.urls'))  # api/urls.pyを読み込む
 ]
