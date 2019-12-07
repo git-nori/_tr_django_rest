@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d99f0628-3118-4ae5-9c4b-89ff1608030d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/restapi/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/restapi/api/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restapi/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/restapi/config/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/restapi/api/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="27" column="38" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="38" />
+            <state relative-caret-position="449">
+              <caret line="44" column="59" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
               </folding>
@@ -37,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/restapi/config/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="108" selection-start-line="22" selection-start-column="108" selection-end-line="22" selection-end-column="108" />
+            <state relative-caret-position="345">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#630#662#0" expanded="true" />
               </folding>
@@ -78,8 +77,8 @@
         <option value="$PROJECT_DIR$/restapi/api/admin.py" />
         <option value="$PROJECT_DIR$/restapi/api/serializers.py" />
         <option value="$PROJECT_DIR$/restapi/api/models.py" />
-        <option value="$PROJECT_DIR$/restapi/api/views.py" />
         <option value="$PROJECT_DIR$/restapi/config/urls.py" />
+        <option value="$PROJECT_DIR$/restapi/api/views.py" />
       </list>
     </option>
   </component>
@@ -180,7 +179,7 @@
     <frame x="720" y="23" width="720" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49809885" visible="true" weight="0.24892704" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49809885" visible="true" weight="0.24892704" />
       <window_info id="Structure" order="1" sideWeight="0.50190115" side_tool="true" visible="true" weight="0.24892704" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -191,7 +190,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3299363" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" visible="true" weight="0.3299363" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -274,22 +273,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/restapi/api/views.py">
+    <entry file="file://$PROJECT_DIR$/restapi/config/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="38" />
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <element signature="e#0#46#0" expanded="true" />
+            <element signature="e#630#662#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/restapi/config/urls.py">
+    <entry file="file://$PROJECT_DIR$/restapi/api/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="108" selection-start-line="22" selection-start-column="108" selection-end-line="22" selection-end-column="108" />
+        <state relative-caret-position="449">
+          <caret line="44" column="59" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
           <folding>
-            <element signature="e#630#662#0" expanded="true" />
+            <element signature="e#0#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
