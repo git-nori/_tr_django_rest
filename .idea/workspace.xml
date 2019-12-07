@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d99f0628-3118-4ae5-9c4b-89ff1608030d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restapi/api/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/restapi/api/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restapi/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/restapi/api/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restapi/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/restapi/api/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restapi/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/restapi/config/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/restapi/api/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -28,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/restapi/api/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="17" lean-forward="true" selection-end-line="17" />
+            <state relative-caret-position="360">
+              <caret line="24" column="65" lean-forward="true" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
               </folding>
@@ -69,8 +65,8 @@
         <option value="$PROJECT_DIR$/restapi/api/fixtures/book_initial.json" />
         <option value="$PROJECT_DIR$/restapi/api/admin.py" />
         <option value="$PROJECT_DIR$/restapi/api/serializers.py" />
-        <option value="$PROJECT_DIR$/restapi/api/views.py" />
         <option value="$PROJECT_DIR$/restapi/api/models.py" />
+        <option value="$PROJECT_DIR$/restapi/api/views.py" />
       </list>
     </option>
   </component>
@@ -245,32 +241,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/restapi/api/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/restapi/api/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" lean-forward="true" selection-end-line="11" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restapi/api/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" lean-forward="true" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -282,12 +258,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/restapi/api/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/restapi/api/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" lean-forward="true" selection-end-line="19" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restapi/api/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="65" lean-forward="true" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
           </folding>
         </state>
       </provider>

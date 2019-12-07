@@ -15,3 +15,11 @@ class BookListCreateAPIView(views.APIView):
         serializer = BookSerializer(instance=book_list, many=True)
 
         return Response(serializer.data, status.HTTP_200_OK)
+
+    def post(self, request, *args, **kwargs):
+        """本モデルの登録APIに対応するハンドラメソッド"""
+        serializer = BookSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+
+        return Response(serializer.data, status.HTTP_201_CREATED)
