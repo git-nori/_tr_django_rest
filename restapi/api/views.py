@@ -23,3 +23,14 @@ class BookListCreateAPIView(views.APIView):
         serializer.save()
 
         return Response(serializer.data, status.HTTP_201_CREATED)
+
+
+class BookRetrieveUpdateDestroyAPIView(views.APIView):
+    """本モデルの取得(詳細)・更新・一部更新・削除APIクラス"""
+
+    def get(self, request, pk, *args, **kwargs):
+        """本モデルの取得(詳細)APIのハンドラメソッド"""
+        book = get_object_or_404(Book, pk=pk)
+        serializer = BookSerializer(instance=book)
+
+        return Response(serializer.data, status.HTTP_200_OK)
