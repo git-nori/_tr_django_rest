@@ -43,3 +43,12 @@ class BookRetrieveUpdateDestroyAPIView(views.APIView):
         serializer.save()
 
         return Response(serializer.data, status.HTTP_200_OK)
+
+    def patch(self, request, pk, *args, **kwargs):
+        """本モデルの一部更新APIのハンドラメソッド"""
+        book = get_object_or_404(Book, pk=pk)
+        serializer = BookSerializer(instance=book, data=request.data, partial=True)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+
+        return Response(serializer.data, status.HTTP_200_OK)
