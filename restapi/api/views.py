@@ -52,3 +52,10 @@ class BookRetrieveUpdateDestroyAPIView(views.APIView):
         serializer.save()
 
         return Response(serializer.data, status.HTTP_200_OK)
+
+    def delete(self, request, pk, *args, **kwargs):
+        """本モデルの削除APIのハンドラメソッド"""
+        book = get_object_or_404(Book, pk=pk)
+        book.delete()
+
+        return Response(status=status.HTTP_204_NO_CONTENT)
