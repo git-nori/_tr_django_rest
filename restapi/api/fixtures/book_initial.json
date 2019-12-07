@@ -1,0 +1,24 @@
+[
+  {
+    "model": "api.book",
+    "fields": {
+      "title": "test1",
+      "price": 100
+    }
+  },
+  {
+    "model": "api.book",
+    "fields": {
+      "title": "test2",
+      "price": 200
+    }
+  },
+  {
+    "model": "api.book",
+    "fields": {
+      "title": "test3",
+      "price": 300
+    }
+  }
+]
+
